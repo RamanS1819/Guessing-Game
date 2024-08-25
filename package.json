@@ -35,10 +35,10 @@
     "ts-jest": "^28.0.8",
     "typescript": "^5.1"
   },
-  "peerDependencies": {
-    "o1js": "^1.*"
-  },
   "engines": {
     "node": ">=18.14.0"
+  },
+  "dependencies": {
+    "o1js": "^1.6.0"
   }
 }

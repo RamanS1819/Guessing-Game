@@ -19,6 +19,7 @@ export default {
   ],
   modulePathIgnorePatterns: ['<rootDir>/build/'],
   moduleNameMapper: {
-    '^(\\.{1,2}/.+)\\.js$': '$1',
+    'o1js/dist/(.*)': '<rootDir>/node_modules/o1js/dist/$1',
+    '^(\\\\.{1,2}/.+)\\\\.js$': '$1',
   },
 };

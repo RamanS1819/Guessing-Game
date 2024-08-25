@@ -1,4 +1,41 @@
 {
   "version": 1,
-  "deployAliases": {}
+  "deployAliases": {
+    "guessdevnet": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/guessdevnet.json",
+      "feepayerKeyPath": "/home/ramans1819/.cache/zkapp-cli/keys/deployer_acc.json",
+      "feepayerAlias": "deployer_acc",
+      "fee": "0.1",
+      "smartContract": "GuessGame"
+    },
+    "guessdevnet2": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/guessdevnet2.json",
+      "feepayerKeyPath": "/home/ramans1819/.cache/zkapp-cli/keys/deployer_acc.json",
+      "feepayerAlias": "deployer_acc",
+      "fee": "0.5",
+      "smartContract": "GuessGame"
+    },
+    "guessdevnet3": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/guessdevnet3.json",
+      "feepayerKeyPath": "/home/ramans1819/.cache/zkapp-cli/keys/deployer_acc.json",
+      "feepayerAlias": "deployer_acc",
+      "fee": "1",
+      "smartContract": "GuessGame"
+    },
+    "guessdevnet4": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/guessdevnet4.json",
+      "feepayerKeyPath": "/home/ramans1819/.cache/zkapp-cli/keys/deployer_acc.json",
+      "feepayerAlias": "deployer_acc",
+      "fee": "1",
+      "smartContract": "GuessGame"
+    }
+  }
 }
